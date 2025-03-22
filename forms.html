@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <section>
+        <h2>Steps for Registration</h2>
+        <ol type="I">
+            <li>Fill out the registration form.</li>
+            <li>Submit the form for processing.</li>
+            <li>Check your email for confirmation.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Our Coding</h2>
+        <img src="image.jpeg" alt="Our Coding" width="500">
+    </section>
+
+    <section>
+        <h2>Contact Information</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Festus Petrus</td>
+                    <td>123 Elm St, windhoek</td>
+                    <td>0814256789</td>
+                    <td>petrusfestus78@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Shipanga Jason</td>
+                    <td>donker St, windhoek</td>
+                    <td>0814411137</td>
+                    <td>jshipanga@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Michael Johnson</td>
+                    <td>789 Pine St, omuthiya</td>
+                    <td>0812334455</td>
+                    <td>michaeljohnson@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emily Davis</td>
+                    <td>Maple St, ondangwa</td>
+                    <td>0816778899</td>
+                    <td>emilydavis@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>William Tangi</td>
+                    <td>Ongava St, windhoek</td>
+                    <td>0858776655</td>
+                    <td>williamtangi@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+        <form action="/submit_registration" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+            <label for="date">Date of Birth:</label>
+            <input type="date" id="date" name="dob" required><br><br>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select a country</option>
+                <option value="Namibia">Namibia</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+                <option value="Botswana">Botswana</option>
+            </select><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male" required> Male
+            <input type="radio" id="female" name="gender" value="Female" required> Female<br><br>
+
+            <label for="subscribe">Subscribe to our newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Multimedia Section</h2>
+
+        <h3>Listen to Music to keep you happy when Coding</h3>
+        <audio controls>
+            <source src="c:\Users\PC\Music\MUSHE ft EXIT - OUR HISTORY.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio><br><br>
+
+        <h3>Watch a coding video</h3>
+        <video width="600" controls>
+            <source src="c:\Users\PC\Desktop\Web Development\Web - Week 2- Session 3.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+    <footer>
+        <hr>
+        <br><br><br>
+        <p>Festus Petrus &copy All Right Reserved</p>
+    </footer>
+</body>
+</html>
